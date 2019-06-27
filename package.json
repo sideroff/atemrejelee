@@ -1,0 +1,24 @@
+{
+  "name": "atemrejelee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "initialize-repos": "cd packages && git clone https://github.com/sideroff/atemrejele",
+    "bootstrap": "npm run initialize-repos && npx lerna bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sideroff/atemrejelee.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sideroff/atemrejelee/issues"
+  },
+  "homepage": "https://github.com/sideroff/atemrejelee#readme",
+  "dependencies": {
+    "lerna": "^3.15.0"
+  }
+}

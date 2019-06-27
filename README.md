@@ -1,6 +1,7 @@
 A "Hello world" to lerna
 
 # To use this setup
+
 1. Type `npm run bootstrap`
 
 # To use lerna:
